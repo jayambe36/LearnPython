@@ -1,0 +1,11 @@
+days = input('Enter the day : ')
+day = int(days)
+rateperdays = input('Enter the rate per day : ')
+rateperday = float(rateperdays)
+total = int(days) * float(rateperday)
+print('Grand Total is : ',total)
+
+xh = input("Enter Days:")
+xr = input("Enter Rate:")
+xp = float(xh) * float(xr)
+print("Pay:",xp)
